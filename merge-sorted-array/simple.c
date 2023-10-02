@@ -1,4 +1,4 @@
-// Simple solution: Combine two arrays in to the one and sort them in decreasing order
+// Simple solution: Combine two arrays into the one and sort the elements in increasing order
 #include <stdio.h>
 
 void merge(int* nums1, int nums1Size, int m, int* nums2, int nums2Size, int n){
@@ -8,7 +8,7 @@ void merge(int* nums1, int nums1Size, int m, int* nums2, int nums2Size, int n){
     }
 }
 
-
+// The complexity is based on the sort algorithm, I will skip the optimization for this ques
 void sort(int* nums, int numSize){
     int i, j = 0;
     for (i = 0; i < numSize; i++) {
